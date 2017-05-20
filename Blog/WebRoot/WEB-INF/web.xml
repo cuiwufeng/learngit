@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginUser</servlet-name>
+    <servlet-class>com.wt.servlet.loginUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alertUser</servlet-name>
+    <servlet-class>com.wt.servlet.alertUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCertPic</servlet-name>
+    <servlet-class>com.wt.servlet.ShowCertPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>validateImg</servlet-name>
+    <servlet-class>com.wt.servlet.validateImg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterUser</servlet-name>
+    <servlet-class>com.wt.servlet.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>com.wt.servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>com.wt.servlet.delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PublishArticle</servlet-name>
+    <servlet-class>com.wt.servlet.PublishArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyArticle</servlet-name>
+    <servlet-class>com.wt.servlet.ModifyArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>reply</servlet-name>
+    <servlet-class>com.wt.servlet.reply</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginUser</servlet-name>
+    <url-pattern>/loginUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alertUser</servlet-name>
+    <url-pattern>/alertUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCertPic</servlet-name>
+    <url-pattern>/ShowCertPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>validateImg</servlet-name>
+    <url-pattern>/validateImg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterUser</servlet-name>
+    <url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PublishArticle</servlet-name>
+    <url-pattern>/PublishArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyArticle</servlet-name>
+    <url-pattern>/ModifyArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>reply</servlet-name>
+    <url-pattern>/reply</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>com.wt.filter.EncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  
+</web-app>

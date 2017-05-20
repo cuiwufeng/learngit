@@ -1,0 +1,51 @@
+.STYLE1 {font-size: 20px}
+body {
+	/*background-image: url(images/bg.jpg);*/
+	margin-top:0;
+	margin-left:0;
+	 
+}
+
+#header
+{
+	background-color: white;
+	width: 100%;
+	height: 30px;
+	border-bottom: solid 1px #D5D5D5;
+	
+}
+
+
+.STYLE3 {
+	font-size: large;
+	color: #3E2D23;
+	font-weight: bold;
+}
+
+.STYLE4 {
+	background: url(images/menu.gif);
+	background-repeat: no-repeat;
+	cellpadding: "0";
+    cellspacing: "0";
+}
+
+a   {   
+  color:   red;   
+  text-decoration:   none;   
+  cursor:   hand;   
+  }   
+    
+  a:link   {   
+  color:   #003399;   
+  text-decoration:   none;   
+  }   
+    
+  a:visited   {   
+  color:   #003399;   
+  text-decoration:   none;   
+  }   
+    
+  a:hover   {   
+  color:   #990000;   
+  text-decoration:   none;   
+  }
