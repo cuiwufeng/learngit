@@ -134,7 +134,10 @@ if(flag==1)
 		sex="不公开";
 		
 	out.print("<font size='2px'>");
-	out.print("<img src='upload/" + user.getUsername() +".jpg' width='150' height='150' ><br><br>");
+	if("<img src='upload/" + user.getUsername() +".jpg'>"==""){
+			out.print("<img src='upload/" + user.getUsername() +".jpg' width='150' height='150' ><br><br>");
+	}
+	
 	out.print("博客名称："+ user.getBlogtitle() + "<br>");
 	out.print("姓名："+ user.getTruename() + "<br>");
 	out.print("性别："+ sex + "<br>");

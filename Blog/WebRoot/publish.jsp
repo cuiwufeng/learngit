@@ -164,7 +164,10 @@ if(flag==1)
 		sex="不公开";
 		
 	out.print("<font size='2px'>");
-	out.print("<img src='upload/" + user.getUsername() +".jpg' width='150' height='150' ><br><br>");
+	if("<img src='upload/" + user.getUsername() +".jpg'>"==""){
+			out.print("<img src='upload/" + user.getUsername() +".jpg' width='150' height='150' ><br><br>");
+	}
+	
 	out.print("博客名称："+ user.getBlogtitle() + "<br>");
 	out.print("姓名："+ user.getTruename() + "<br>");
 	out.print("性别："+ sex + "<br>");
@@ -268,7 +271,7 @@ beginneon()
 	  <br />
 	  
 	  <br />
-  Copyright © 2010 <a href="http://www.zafu.edu.cn" target="_blank" title="浙江农林大学">浙江农林大学</a> Corporation, All Rights Reserved </span><span class="STYLE5"><br />
+  Copyright © 2017 <a href="http://www.zafu.edu.cn" target="_blank" title="浙江农林大学">浙江农林大学</a> Corporation, All Rights Reserved </span><span class="STYLE5"><br />
       </span>
       <div class="STYLE1 STYLE5">浙江农林大学 版权所有</div>
 </div>
