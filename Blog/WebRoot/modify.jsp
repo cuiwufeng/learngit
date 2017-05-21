@@ -241,7 +241,7 @@ if(flag==1)
 <div align="center">
       <span class="STYLE1 STYLE5"><a href="about.jsp">
       <u><br />
-      关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:595706705@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
+      关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:1489897665@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
 	  
 	  <script>
 var message="我们还很年轻，离不开您的批评和建议。"
@@ -279,7 +279,7 @@ beginneon()
 	  <br />
 	  
 	  <br />
-  Copyright © 2017 <a href="http://www.xulongkang.wanye68.com" target="_blank" title="浙江农林大学">浙江农林大学</a> Corporation, All Rights Reserved </span><span class="STYLE5"><br />
+  Copyright © 2017 <a href="http://www.zafu.edu.cn" target="_blank" title="浙江农林大学">浙江农林大学</a> Corporation, All Rights Reserved </span><span class="STYLE5"><br />
       </span>
       <div class="STYLE1 STYLE5">浙江农林大学 版权所有</div>
 </div>

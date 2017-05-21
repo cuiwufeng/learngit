@@ -113,7 +113,7 @@ if(form1.password.value==""){
        		else if(user.getSex()==1)
        			sex="女";
        		else
-       			sex="不公开";
+       			sex="保密";
        		
       		out.print("性别："+ sex + "<br>");
       		out.print("年龄："+ user.getAge() + "<br>");
