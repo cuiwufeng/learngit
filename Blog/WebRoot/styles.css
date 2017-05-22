@@ -1,9 +1,13 @@
 .STYLE1 {font-size: 20px}
 body {
-	/*background-image: url(images/bg.jpg);*/
+	background-image: url(images/bg.jpg);
 	margin-top:0;
 	margin-left:0;
+
+	 background-repeat:no-repeat;
 	 
+	 background-position-x:50%;	 
+	
 }
 
 #header

@@ -144,9 +144,9 @@ if(flag==1)
 		sex="不公开";
 		
 	out.print("<font size='2px'>");
-	if("<img src='upload/" + user.getUsername() +".jpg'>"==""){
-			out.print("<img src='upload/" + user.getUsername() +".jpg' width='150' height='150' ><br><br>");
-	}
+	 
+	out.print("<img src='upload/" + user.getUsername() +".jpg' width='150' height='150' ><br><br>");
+	
 	
 	
 	

@@ -102,8 +102,8 @@ if(form1.password.value==""){
        		rs.next();
        		Users user = new Users();
        		user.initFromRs(rs);
-       		out.print("<img src=images/blogstar.gif><br><br>");
-       	/*out.print("<img src=upload/"+user.getUsername()+".jpg width=150 height=150><br><br>");*/
+       		out.print("<img src=images/blogstar.gif width=150 height=150><br><br>");
+       	
        		out.print("博客名称："+ user.getBlogtitle() + "<br>");
        		out.print("博主："+user.getUsername()+"<br>");
        		

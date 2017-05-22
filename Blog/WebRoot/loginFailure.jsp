@@ -40,7 +40,7 @@ if(form1.password.value==""){
 .STYLE5 {color: #555555}
 .STYLE7 {color: #CCCCCC}
 .STYLE10 {
-	font-family: "华文行楷";
+	font-family: "隶书";
 	color: #3E2D23;
 	font-size: large;
 }
