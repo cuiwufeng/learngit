@@ -93,8 +93,7 @@ DB.close(stmtCount);
     <td width="30%"><div align="center" class="STYLE10"> 欢迎光临 <br />
 	博客</div></td>
     <td><p class="STYLE1">博客地址：<%= basePath %><br />
-          <a href="JavaScript: window.external.addFavorite('<%=basePath%>','简易多用户博客');" 
-          title='点击将本站加入收藏夹'><img src="images/addfavorite.gif" width="11" height="12" border="0" /> 加入收藏夹</a></p>    </td>
+ 			</td>
   </tr>
 </table>
 

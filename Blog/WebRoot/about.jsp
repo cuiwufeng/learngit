@@ -60,7 +60,7 @@ if(form1.password.value==""){
   <table width="100%" border="0" cellspacing="0" >
     <tr>
       <td width="5%"><img src="images/logo.gif" width="98" height="30" /></td>
-      <td width="35%" height="32"><span class="STYLE1"><a href="index.jsp"><span class="STYLE7">&nbsp;|</span>&nbsp;&nbsp;简易博客首页</a></span></td>
+      <td width="35%" height="32"><span class="STYLE1"><a href="index.jsp"><span class="STYLE7">&nbsp;|</span>&nbsp;&nbsp;博客首页</a></span></td>
       <td width="60%"> <div align="right"><span class="STYLE1"><strong>→&nbsp;</strong><a href="login.jsp">用户登录</a><span class="STYLE7">&nbsp;&nbsp;|</span>&nbsp; <a href="register.jsp">注册新用户&nbsp;&nbsp;</a></span></div></td>
     </tr>
   </table>
@@ -71,9 +71,7 @@ if(form1.password.value==""){
     <td width="8%" height="250">&nbsp;</td>
     <td width="30%"><div align="center" class="STYLE10"> 欢迎光临 <br />
    博客</div></td>
-    <td><p class="STYLE1">博客地址：<%= basePath %><br />
-          <a href="JavaScript: window.external.addFavorite('<%=basePath%>','简易多用户博客');" 
-          title='点击将本站加入收藏夹'><img src="images/addfavorite.gif" width="11" height="12" border="0" /> 加入收藏夹</a></p>    </td>
+    <td><p class="STYLE1">博客地址：<%= basePath %><br /></td>
   </tr>
 </table>
 

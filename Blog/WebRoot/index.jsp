@@ -65,8 +65,7 @@ if(form1.password.value==""){
     <td width="30%"><div align="center" class="STYLE10"> 欢迎光临 <br />
      博客</div></td>
     <td><p class="STYLE1">博客地址：<%= basePath %><br />
-          <a href="JavaScript: window.external.addFavorite('<%=basePath%>','博客');" 
-          title='点击将本站加入收藏夹'><img src="images/addfavorite.gif" width="11" height="12" border="0" /> 加入收藏夹</a></p>    </td>
+         </td>
   </tr>
 </table>
 
@@ -147,7 +146,7 @@ if(form1.password.value==""){
         db.close(Tstmt);
         db.close(Trs);
 		
-        out.print("<img src=images/newtop20.gif><br><br>");
+        out.print("<img src=images/newtop.gif><br><br>");
         
         for(Iterator<Articles> it = articles.iterator(); it.hasNext(); ) {
         	Articles a = it.next();
@@ -182,7 +181,7 @@ if(form1.password.value==""){
             <td>
             <font size=2.5px>
 			<%
-       			out.print("<img src=images/pvtop20.gif><br><br>");
+       			out.print("<img src=images/pvtop10.gif><br><br>");
 				Statement Bstmt = DB.createStmt(conn);
 	       	    sql = "select * from users order by point desc limit 0,20";
         		ResultSet Brs = DB.executeQuery(Bstmt,sql);
@@ -224,7 +223,7 @@ if(form1.password.value==""){
 <div align="center">
       <span class="STYLE1 STYLE5"><a href="about.jsp">
       <u><br />
-       博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:595706705@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
+       关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:595706705@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
 	  
 	  <script>
 var message="我们还很年轻，离不开您的批评和建议。"

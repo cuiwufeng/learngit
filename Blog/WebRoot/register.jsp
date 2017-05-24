@@ -48,8 +48,9 @@ if(form1.password.value==""){
 .STYLE12 {color: #FF0000}
 .STYLE13 {color: #0000FF}
 .STYLE14 {
-	font-size: 15px;
+	font-size: 30px;
 	color: #FF0000;
+ 
 }
 -->
 </style>
@@ -68,11 +69,10 @@ if(form1.password.value==""){
 <table width="100%" height="254" border="0">
   <tr>
     <td width="8%" height="250">&nbsp;</td>
-    <td width="30%"><div align="center" class="STYLE10"> 欢迎光临 <br />
+    <td width="30%"><div align="center" class="STYLE10">欢迎光临 <br />
     博客</div></td>
     <td><p class="STYLE1">博客地址：<%= basePath %><br />
-          <a href="JavaScript: window.external.addFavorite('<%=basePath%>','简易多用户博客');" 
-          title='点击将本站加入收藏夹'><img src="images/addfavorite.gif" width="11" height="12" border="0" /> 加入收藏夹</a></p>    </td>
+           </td>
   </tr>
 </table>
 
@@ -185,7 +185,7 @@ function checkRegister(){
   <tr>
     <td height="421"><div align="center">
       <form action="RegisterUser" method="post" name="form2">
-	    <p class="STYLE14">请输入您要注册的用户名信息：</p>
+	   <p class="STYLE14">请输入您要注册的用户名信息：</p>
 	    <table width="424" border="0">
         <tr>
           <td width="81"><span class="STYLE11">用户名：</span></td>
