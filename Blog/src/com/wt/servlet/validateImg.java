@@ -36,8 +36,9 @@ public class validateImg extends HttpServlet {
 			//这里利用RequestDispatcher进行跳转主要使得表单可以传递给下一个页面
 			RequestDispatcher dispatcher=request.getRequestDispatcher("loginUser");
 			dispatcher.forward(request, response);
-		}else{
-		response.sendRedirect("loginFailure.jsp?url=login.jsp");
+		}
+		else{
+			response.sendRedirect("loginFailure.jsp?url=login.jsp");
 		}
 	}
 	

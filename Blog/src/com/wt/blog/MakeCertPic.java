@@ -12,7 +12,7 @@ import javax.imageio.ImageIO;
 
 /**
  * 生成验证码
- * @author dell
+ * 
  *
  */
 public class MakeCertPic {
