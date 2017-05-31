@@ -46,10 +46,10 @@ if(form1.password.value==""){
 }
 .STYLE11 {font-size: 13px}
 .STYLE13 {
-	font-size: 16px;
+	font-size: 20px;
 	color: #FF0000;
 }
-.STYLE14 {font-size: 15px}
+.STYLE14 {font-size: 20px}
 -->
 </style>
 <title>博客</title>
