@@ -107,15 +107,15 @@ if(form1.password.value==""){
         </tr>
         <tr>
           <td><span class="STYLE1 STYLE15">制作周期：</span></td>
-          <td><span class="STYLE1 STYLE15">3周</span></td>
+          <td><span class="STYLE1 STYLE15">5周</span></td>
         </tr>
         <tr>
           <td><span class="STYLE1 STYLE15">采用技术：</span></td>
-          <td><span class="STYLE1 STYLE15">javascript、div、css、jsp、servlet、javabean、struts、Ajax</span></td>
+          <td><span class="STYLE1 STYLE15">javascript、css、jsp、servlet、javabean、Ajax</span></td>
         </tr>
         <tr>
           <td><span class="STYLE1 STYLE15">电子邮件：</span></td>
-          <td><span class="STYLE1 STYLE15"><a href="mailto:282622893@qq.com">1489897665@qq.com</a></span></td>
+          <td><span class="STYLE1 STYLE15"><a href="mailto:1489897665@qq.com">1489897665@qq.com</a></span></td>
         </tr>
         <tr>
           <td height="30"><span class="STYLE15">电话：</span></td>
@@ -127,7 +127,7 @@ if(form1.password.value==""){
         </tr>
         <tr>
           <td>系统版本：</td>
-          <td><div align="left" class="STYLE15">v1.0</div></td>
+          <td><div align="left" class="STYLE15">v2.0</div></td>
         </tr>
       </table>
  	</marquee>

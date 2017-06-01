@@ -183,7 +183,7 @@ if(form1.password.value==""){
 			<%
        			out.print("<img src=images/pvtop10.gif><br><br>");
 				Statement Bstmt = DB.createStmt(conn);
-	       	    sql = "select * from users order by point desc limit 0,20";
+	       	    sql = "select * from users order by point desc limit 0,10";
         		ResultSet Brs = DB.executeQuery(Bstmt,sql);
         		
         		List<Users> users = new ArrayList<Users>();
@@ -223,7 +223,7 @@ if(form1.password.value==""){
 <div align="center">
       <span class="STYLE1 STYLE5"><a href="about.jsp">
       <u><br />
-       关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:595706705@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
+       关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:1489897665@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
 	  
 	  <script>
 var message="我们还很年轻，离不开您的批评和建议。"

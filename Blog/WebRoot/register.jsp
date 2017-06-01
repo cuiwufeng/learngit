@@ -292,7 +292,7 @@ beginneon()
 	  <br />
 	  
 	  <br />
-  Copyright © 2017 <a href="http://www.xulongkang.wanye68.com" target="_blank" title="浙江农林大学">浙江农林大学</a> Corporation, All Rights Reserved </span><span class="STYLE5"><br />
+  Copyright © 2017 <a href="http://www.zafu.edu.cn" target="_blank" title="浙江农林大学">浙江农林大学</a> Corporation, All Rights Reserved </span><span class="STYLE5"><br />
       </span>
       <div class="STYLE1 STYLE5">浙江农林大学 版权所有</div>
 </div>
