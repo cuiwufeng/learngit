@@ -22,12 +22,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!-- javascript验证用户名或者密码是否为空 -->
 <script>
 function checkdata(){
-if(form1.username.value==""){
+if(form1.username.value=="")
+{
 	alert("用户名不能为空！请重新输入。");
 	form1.username.focus();
 	return false;
 }
-if(form1.password.value==""){
+if(form1.password.value=="")
+{
 	alert("密码不能为空！请重新输入。");
 	form1.password.focus();
 	return false;

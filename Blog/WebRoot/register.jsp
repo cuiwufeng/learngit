@@ -254,7 +254,7 @@ function checkRegister(){
 <div align="center">
       <span class="STYLE1 STYLE5"><a href="about.jsp">
       <u><br />
-      关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:595706705@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
+      关于博客</u></a>&nbsp;&nbsp;&nbsp;<a href="mailto:1489897665@qq.com"><u>联系作者</u></a>&nbsp;&nbsp;&nbsp;<a href="register.jsp"><u>会员注册</u></a><a href="register.jsp"></a> &nbsp;&nbsp;
 	  
 	  <script>
 var message="我们还很年轻，离不开您的批评和建议。"
