@@ -130,7 +130,7 @@ if(flag==1)
 	else if(user.getSex()==1)
 		sex="女";
 	else
-		sex="不公开";
+		sex="私密";
 		
 	out.print("<font size='2px'>");
 	 

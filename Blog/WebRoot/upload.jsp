@@ -22,12 +22,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <script>
 function checkdata(){
 if(form1.username.value==""){
-	alert("用户名不能为空！请重新输入。");
+	alert("用户名不能为空，请重新输入！");
 	form1.username.focus();
 	return false;
 }
 if(form1.password.value==""){
-	alert("密码不能为空！请重新输入。");
+	alert("密码不能为空，请重新输入！");
 	form1.password.focus();
 	return false;
 }

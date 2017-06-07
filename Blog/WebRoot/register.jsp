@@ -138,7 +138,7 @@ if(form1.password.value==""){
   				}
   			}
   			else{//页面不正常
-  				alert("您所请求的页面有异常。");
+  				alert("您所请求的页面有异常！");
   			}
   		}
   	}
@@ -221,7 +221,7 @@ function checkRegister(){
             <select name="sex">
               <option value="0">男</option>
               <option value="1">女</option>
-              <option value="2">未知</option>
+              <option value="2">私密</option>
             </select>
           </span></td>
         </tr>
